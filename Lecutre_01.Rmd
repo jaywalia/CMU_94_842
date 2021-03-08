@@ -1,14 +1,16 @@
 ---
-title: 'Lecture 1 <br> Introduction and Basics'
-Course url : https://www.andrew.cmu.edu/user/achoulde/94842/
-Lecture url : 
-author: Prof. Alexandra Chouldechova
-date: Fall 2020
+title: "Lecture 1 <br> Introduction and Basics"
+author: "Prof. Alexandra Chouldechova"
+date: "Fall 2020"
 output:
+  beamer_presentation:
+    highlight: tango
   ioslides_presentation:
     highlight: tango
-    widescreen: true
-    smaller: true
+    widescreen: yes
+    smaller: yes
+Lecture url: null
+Course url: https://www.andrew.cmu.edu/user/achoulde/94842/
 ---
 
 
@@ -122,7 +124,7 @@ Basic interaction with R is through typing in the **console**
 This is the **terminal** or **command-line** interface
 
 ```{r, out.height = "400px", echo = FALSE}
-knitr::include_graphics("./figures/rterminal.png")
+# knitr::include_graphics("./figures/rterminal.png")
 ```
 
 
@@ -161,7 +163,7 @@ RStudio has 4 main windows (aka 'panes'):
 
 <div style="float: right; width: 65%;">
 ```{r, out.height = "500px", echo = FALSE}
-knitr::include_graphics("./figures/rstudio_panes.png")
+# knitr::include_graphics("./figures/rstudio_panes.png")
 ```
 </div>
 
@@ -188,7 +190,7 @@ knitr::include_graphics("./figures/rstudio_panes.png")
 
 <div style="float: right; width: 55%;">
 ```{r, out.height = "400px", echo = FALSE}
-knitr::include_graphics("./figures/pane_console.png")
+# knitr::include_graphics("./figures/pane_console.png")
 ```
 </div>
 
@@ -203,7 +205,7 @@ knitr::include_graphics("./figures/pane_console.png")
 
 <div style="float: right; width: 55%;">
 ```{r, out.height = "400px", echo = FALSE}
-knitr::include_graphics("./figures/pane_source.png")
+# knitr::include_graphics("./figures/pane_source.png")
 ```
 </div>
 
@@ -220,7 +222,7 @@ knitr::include_graphics("./figures/pane_source.png")
 
 <div style="float: right; width: 55%;">
 ```{r, out.height = "400px", echo = FALSE}
-knitr::include_graphics("./figures/pane_plots.png")
+# knitr::include_graphics("./figures/pane_plots.png")
 ```
 </div>
 
@@ -228,21 +230,21 @@ knitr::include_graphics("./figures/pane_plots.png")
 ## RStudio: Source and Console panes
 
 ```{r, out.height = "500px", echo = FALSE}
-knitr::include_graphics("./figures/rstudio.png")
+# knitr::include_graphics("./figures/rstudio.png")
 ```
 
 
 ## RStudio: Console
 
 ```{r, out.height = "500px", echo = FALSE}
-knitr::include_graphics("./figures/variables.png")
+# knitr::include_graphics("./figures/variables.png")
 ```
 
 
 ## RStudio: Toolbar
 
 ```{r, out.height = "500px", echo = FALSE}
-knitr::include_graphics("./figures/menus.png")
+# knitr::include_graphics("./figures/menus.png")
 ```
 
 
@@ -270,7 +272,7 @@ knitr::include_graphics("./figures/menus.png")
 
 <div style="float: right; width: 65%;">
 ```{r, out.height = "400px", echo = FALSE}
-knitr::include_graphics("./figures/rmarkdown1.png")
+# knitr::include_graphics("./figures/rmarkdown1.png")
 ```
 </div>
 
@@ -285,7 +287,7 @@ knitr::include_graphics("./figures/rmarkdown1.png")
 
 <div style="float: right; width: 65%;">
 ```{r, out.height = "500px", echo = FALSE}
-knitr::include_graphics("./figures/rmarkdown2.png")
+# knitr::include_graphics("./figures/rmarkdown2.png")
 ```
 </div>
 
